@@ -1,0 +1,12 @@
+{
+  "Skype": {
+    "MaskingSign": "*"
+  },
+  "Phone": {
+    "MaskingSign": "#",
+    "DigitsToHide": 4
+  },
+  "Mail": {
+    "MaskingSign": "*"
+  }
+}
