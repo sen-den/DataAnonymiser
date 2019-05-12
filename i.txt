@@ -1,1 +1,2 @@
-zxc skype:qwe asd skype: <a href="skype:USERNAME?call">call me</a>
+zxc skype:qwe asd skype: <a href="skype:USERNAME?call">call me</a> 
+Lorem +48 845 546 546, +48 777 777 777 sit 898 845 566 amet
