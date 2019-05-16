@@ -2,6 +2,7 @@ import sys
 
 from anonymizeSkype import anonymizeSkype
 from anonymizePhone import anonymizePhone
+from anonymizeEmail import anonymizeEmail
 
 if (len(sys.argv) < 3):
 	raise Error("Pass input and output file names to script as command line arguments!")
@@ -25,8 +26,10 @@ except OSError:
 
 with open(inputFileName, "r") as inpuFile:
 	text = inpuFile.read()
-	print(text)
+
 	text = anonymizeSkype(text)
 	text = anonymizePhone(text)
-	print(text)
+	text = anonymizeEmail(text)
 
+	with open(outputFileName, "w") as outputFile:
+		outputFile.write(text)

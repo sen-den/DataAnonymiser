@@ -1,2 +1,24 @@
-zxc skype:qwe asd skype: <a href="skype:USERNAME?call">call me</a> 
+Text
+zxc skype:qwe asd 
+skype: <a href="skype:USERNAME?call">call me</a> 
 Lorem +48 845 546 546, +48 777 777 777 sit 898 845 566 amet
+
++380 777 777 777
++380 956 959 082
++1 154 265 598
++7 789 456 123
++84575 784 951 632
+
+john.do+e@gmail.com 
+qew@gmail.com
+sen_-1998@gmai.com
+senden_-1998@gmai.com
+abc-abc@abc.edu.co.uk 
+
+Lorem ipsum Lorem ipsum
+Lorem ipsum --@--.-- Lorem ipsum --@--.--
+Lorem some@data ipsum 
+
+For simplicity, you don't have to implement RFC standards. Assume email characters are
+limited with the following set: a-z, A-Z, 0-9, ., _, -, + and the first and the last character
+of username/domain must be a-z, A-Z or 0-9 character.

@@ -2,7 +2,6 @@ import re
 from config import *
 
 def anonymizePhone(text):
-	phoneReg = re.compile("(\+\d{1," +str(cfg["Phone"]["MaxCodeLength"])+ "}(\ \d{3}){3})")
 
 	subsLength = cfg["Phone"]["DigitsToHide"]
 	subsSign = cfg["Phone"]["MaskingSign"]
@@ -12,13 +11,16 @@ def anonymizePhone(text):
 
 	subsFullGroupsCount = subsLength // 3
 	
+	# each 3-chars group adds one space char
 	subsCharCount = subsLength + subsFullGroupsCount
 
+	# {0-2} substitute chars followed by the space separated groups of it
 	subs = subsSign*firstGroupLength + (" " + subsSign*3) * subsFullGroupsCount
 
-	listToSubstitute = [phone[0] for phone in phoneReg.findall(text)]
 
-	for phone in listToSubstitute:
-		text = text.replace(phone, phone[:-subsCharCount] + subs)
+	# replace each phone by its cutted version followed by masked chars
+	text = re.sub(r'(\+[\d]+(\ [\d]{3}){3})'
+		, lambda match: match.group(1)[:-subsCharCount] + subs
+		, text)
 
 	return text

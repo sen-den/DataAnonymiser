@@ -4,8 +4,7 @@
   },
   "Phone": {
     "MaskingSign": "#",
-    "DigitsToHide": 7,
-    "MaxCodeLength": 5
+    "DigitsToHide": 4
   },
   "Mail": {
     "MaskingSign": "*"
