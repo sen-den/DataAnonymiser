@@ -9,3 +9,5 @@ For example, use following command for anonymize all emails and phones in ```i.t
 ```
 python3 anonymize.py ep i.txt o.txt
 ```
+
+Use ```config.json```  for specify mask characters and other options where avaiable.
