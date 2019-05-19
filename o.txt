@@ -1,16 +1,16 @@
 Text
-zxc skype:* asd 
-skype: <a href="skype:*?call">call me</a> 
-<a href="skype:*?call">call me</a>
+zxc skype:qwe asd 
+skype: <a href="skype:USERNAME?call">call me</a> 
+<a href="Skype:USERNAME?call">call me</a>
 Lorem +48 845 54# ###, +48 777 77# ### sit 898 845 566 amet
 
 +380 777 77# ### +380 956 95# ### +1 154 26# ###
 +7 789 45# ### +84575 784 95# ###
 
-*@gmail.com **@gmail.com w*w@gmail.com
--ww@gmail.com w*w@gmail.com j*******e@gmail.com 
-q*w@gmail.com s*******8@gmai.com s**********8@gmai.com
-a*****c@abc.edu.co.uk 
+w@gmail.com ww@gmail.com w-w@gmail.com
+-ww@gmail.com www@gmail.com john.do+e@gmail.com 
+qew@gmail.com sen_-1998@gmai.com senden_-1998@gmai.com
+abc-abc@abc.edu.co.uk 
 
 Lorem ipsum Lorem ipsum
 Lorem ipsum --@--.-- Lorem ipsum --@--.--
