@@ -5,7 +5,8 @@ from anonymizePhone import anonymizePhone
 from anonymizeEmail import anonymizeEmail
 
 if (len(sys.argv) < 3):
-	raise Error("Pass input and output file names to script as command line arguments!")
+	 print("Pass input and output file names to script as command line arguments!")
+	 sys.exit(1)
 
 inputFileName = sys.argv[1]
 outputFileName = sys.argv[2]
@@ -15,14 +16,17 @@ try:
 		pass
 except FileNotFoundError:
 	print("File not exist: ", inputFileName)
+	sys.exit(1)
 except OSError:
 	print("Some error while opening file: ", inputFileName)
+	sys.exit(1)
 
 try:
 	with open(outputFileName, "w") as outputFile:
 		pass
 except OSError:
 	print("Some error while opening file: ", outputFileName)
+	sys.exit(1)
 
 with open(inputFileName, "r") as inpuFile:
 	text = inpuFile.read()
